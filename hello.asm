@@ -1,3 +1,8 @@
+; hello.asm
+;
+; Author: MR
+; Date: 10-Jan-2021
+
 section .data
 	hello: db 'Hello!', 10		; 'Hello' plus a linefeed character
 	hello_len: equ $-hello		; Length of the 'Hello!' string

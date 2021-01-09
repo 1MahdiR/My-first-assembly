@@ -1,3 +1,8 @@
+; comp.asm
+;
+; Author: MR
+; Date: 10-Jan-2021
+
 section .data
 	hello: db 'Condition test in assembly',10	; First message
 	hello_len: equ $-hello
